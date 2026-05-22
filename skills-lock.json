@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "research": {
+      "source": "hec-ovi/research-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "2bd4d76629c8e430a6738b9f9987d851f50dec55483160a021d7038fe69527f6"
+    }
+  }
+}

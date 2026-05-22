@@ -1,0 +1,6 @@
+{
+  "env": {
+    "SEARXNG_BASE_URL": "https://searx.be"
+  },
+  "model": "mimo-v2.5-pro"
+}
