@@ -1,5 +1,6 @@
 #!/bin/bash
-# OpenClaude Pharma Skills - One-click restore script
+# Pharma Research Skills - One-click restore script
+# Installs 131 curated pharma research skills to OpenClaude
 # Usage: bash install.sh
 
 set -e
@@ -8,7 +9,7 @@ OPENCLAUDE_DIR="$HOME/.openclaude"
 SKILLS_DIR="$OPENCLAUDE_DIR/skills"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-echo "=== OpenClaude Pharma Skills Installer ==="
+echo "=== Pharma Research Skills Installer ==="
 echo ""
 
 # Create directories if they don't exist
