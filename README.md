@@ -1,6 +1,6 @@
 # Pharma Research Skills
 
-A curated collection of **131 OpenClaude skills** focused exclusively on pharmaceutical research workflows — from literature discovery to regulatory submission.
+A curated collection of **131 Pharma Research skills** focused exclusively on pharmaceutical research workflows — from literature discovery to regulatory submission.
 
 ## Quick Install
 
