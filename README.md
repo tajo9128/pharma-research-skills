@@ -5,8 +5,8 @@ A curated collection of **131 OpenClaude skills** focused exclusively on pharmac
 ## Quick Install
 
 ```bash
-git clone https://github.com/tajo9128/opencode-pharma-skills.git
-cd opencode-pharma-skills
+git clone https://github.com/tajo9128/pharma-research-skills.git
+cd pharma-research-skills
 bash install.sh
 ```
 
