@@ -1,6 +1,6 @@
 #!/bin/bash
 # Pharma Research Skills - One-click restore script
-# Installs 131 curated pharma research skills to OpenClaude
+# Installs 131 curated pharma research skills
 # Usage: bash install.sh
 
 set -e
@@ -17,12 +17,12 @@ mkdir -p "$SKILLS_DIR"
 
 # Copy all skills (excluding repo metadata)
 echo "Installing skills..."
-rsync -av --exclude='.git' --exclude='install.sh' --exclude='README.md' --exclude='openclaude-settings.json' "$SCRIPT_DIR/" "$SKILLS_DIR/"
+rsync -av --exclude='.git' --exclude='install.sh' --exclude='README.md' --exclude='settings.json' "$SCRIPT_DIR/" "$SKILLS_DIR/"
 
 # Copy settings if requested
 if [ "$1" = "--with-settings" ]; then
     echo "Copying settings..."
-    cp "$SCRIPT_DIR/openclaude-settings.json" "$OPENCLAUDE_DIR/settings.json"
+    cp "$SCRIPT_DIR/settings.json" "$OPENCLAUDE_DIR/settings.json"
 fi
 
 echo ""

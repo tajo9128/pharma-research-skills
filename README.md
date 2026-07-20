@@ -65,13 +65,13 @@ Design, build, and evolve AI agents for automated research workflows.
 ## Configuration
 
 - `skills-lock.json` — Skill dependency tracking
-- `openclaude-settings.json` — OpenClaude configuration (SEARXNG, model config)
+- `settings.json` — Configuration (SEARXNG, model config)
 
 ## Manual Restore
 
 ```bash
 cp -r skills/* ~/.openclaude/skills/
-cp openclaude-settings.json ~/.openclaude/settings.json
+cp settings.json ~/.openclaude/settings.json
 ```
 
 ## What Was Removed
