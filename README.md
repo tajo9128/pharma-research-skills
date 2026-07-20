@@ -73,20 +73,3 @@ Design, build, and evolve AI agents for automated research workflows.
 cp -r skills/* ~/.openclaude/skills/
 cp settings.json ~/.openclaude/settings.json
 ```
-
-## What Was Removed
-
-This repository was curated from 573+ skills to focus exclusively on pharmaceutical research. The following categories were removed:
-
-- ML/AI training libraries (60 skills)
-- ML tracking & monitoring (9 skills)
-- Cloud compute & GPU provisioning (5 skills)
-- Vector databases (4 skills)
-- Data infrastructure (5 skills)
-- Marketing & growth (55 skills)
-- C-suite executive advisors (33 skills)
-- Business operations & strategy (49 skills)
-- Software engineering & DevOps (150+ skills)
-- Product management (15 skills)
-- Finance & HR (9 skills)
-- Miscellaneous (20+ skills)
